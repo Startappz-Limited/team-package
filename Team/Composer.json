@@ -1,0 +1,28 @@
+{
+  "name": "startappz/team-package",
+  "description": "A package to manage teams and roles in Laravel applications",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Startappz",
+      "homepage": "https://startappzke.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Startappz\\Team\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Startappz\\Team\\TeamServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
+}
